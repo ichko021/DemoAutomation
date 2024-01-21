@@ -1,0 +1,14 @@
+#SignUp
+- Sign up and log in
+- Sign up and log out
+- Log in and log out
+- Log in with wrong credentials
+
+#Cart
+- Sign up and add a product to the cart
+- Log in and add a product to the cart
+- Log in, add product to the cart and make an order
+- Log in, add product and delete the product
+
+
+After those, try to refactor the code itself according to best practices
