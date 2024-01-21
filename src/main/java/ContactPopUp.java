@@ -15,7 +15,7 @@ public class ContactPopUp {
     By cancelButton = By.xpath("(//div[@class=\"modal-dialog\"]//div[@class=\"modal-footer\"]//button[@data-dismiss=\"modal\"])[1]");
 
     public ContactPopUp(WebDriver driver) {
-        driver = this.driver;
+        this.driver = driver;
     }
 
     public String returnStringFirstFieldText(WebDriver driver) {

@@ -30,7 +30,7 @@ public class HomeTests {
     }
 
     @Test
-    public void openDemoBlaze() throws InterruptedException {
+    public void openDemoBlaze() {
         driver.get("https://www.demoblaze.com/index.html");
     }
 

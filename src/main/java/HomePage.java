@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
 
     WebDriver driver;
-    By header = By.xpath("//a[contains(text(), (\"PRODUCT STORE\"))]");
-    By homeNavButton = By.xpath("//li//a[@href=\"index.html\"]");
     By firstProductLink = By.xpath("(//div[@class=\"card h-100\"])[1]");
     By carouselImages = By.xpath("//div[@id=\"carouselExampleIndicators\"]");
     By contactNavButton = By.xpath("//a[@data-target=\"#exampleModal\"]");
